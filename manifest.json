@@ -1,0 +1,13 @@
+{
+  "name": "Effortless Thumbnail Resizing",
+  "id": "1420913496065813159",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["https://unpkg.com"]
+  }
+}
