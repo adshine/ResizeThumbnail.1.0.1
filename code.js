@@ -1,4 +1,4 @@
-figma.showUI(__html__, { width: 440, height: 600 });
+figma.showUI(__html__, { width: 420, height: 900 });
 
 figma.ui.onmessage = async (msg) => {
     if (msg.type === 'create-thumbnails') {

@@ -3,7 +3,7 @@
     <head>
         <!-- Meta and Title -->
         <meta charset="UTF-8">
-        <title>Effortless Thumbnail Resizing</title>
+        <title>Effortless Thumbnail Resizer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <!-- External Icon Library -->
@@ -245,6 +245,8 @@
                 padding:0px;
                 padding-top: 2px;
                 padding-bottom: 2px;
+                transform: scale(1.01);
+                transition: transform 0.2s ease;
             }
             .preset-content{
                 display: flex;
@@ -259,7 +261,7 @@
              }
              .preset-control:hover {
                 background-color: var(--hover-color);
-                transform: scale(0.97);
+                transform: scale(0.975);
                 padding: 12px;
                 border-radius: 6px;
                 transition: transform 0.2s ease;
@@ -827,7 +829,7 @@
         <div class="home-page" id="homePage">
             <div class="banner">
                 <div class="banner-content">
-                    <h1>Effortless Thumbnail Resizing</h1>
+                    <h1>Effortless Thumbnail Resizer</h1>
                     <p>Quickly set one or many sizes with our powerful Figma plugin.</p>
                     <div class="banner-buttons">
                         <button class="create-button" id="createCustomSize">

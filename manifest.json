@@ -1,5 +1,5 @@
 {
-  "name": "Effortless Thumbnail Resizing",
+  "name": "Thumbnail Resizer",
   "id": "1420913496065813159",
   "api": "1.0.0",
   "main": "code.js",
@@ -7,6 +7,7 @@
   "capabilities": [],
   "enableProposedApi": false,
   "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
   "networkAccess": {
     "allowedDomains": ["https://unpkg.com"]
   }
